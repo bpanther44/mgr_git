@@ -1,7 +1,6 @@
 import librosa.util
 import librosa, librosa.display
 from functions import *
-# po mgr segmentacja librosa
 
 def seg_librosa():
 
@@ -104,12 +103,9 @@ def seg_librosa():
     return nutyLib
 
 
-seg_librosa()
+# seg_librosa()
 
 
 # slownik = seg_librosa()
 
 # okno3_wyniki(slownik)
-
-
-
