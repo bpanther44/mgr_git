@@ -1,10 +1,8 @@
 import librosa.util
 import librosa, librosa.display
-from functions import *
-# po mgr segmentacja librosa
+from functions_git import *
 
 def seg_librosa():
-
 
     # -------------------------------------------- wczytanie pliku ----------------------------------------------------
     audio_file = filedialog.askopenfilename(title="Wybierz plik", filetypes = (("wav mono files",".wav"), ("all files", "*.*")))
@@ -49,7 +47,6 @@ def seg_librosa():
     plt.xlabel('Czas',fontsize=10)
     plt.xticks(fontsize=10)
     plt.yticks(fontsize=10)
-    # plt.ylim('Amplituda')
     # plt.show()
 
 
@@ -99,17 +96,9 @@ def seg_librosa():
 
     # ------------------------------------------------- DO WYNIKÓW -----------------------------------------------------
 
-    print('\nskopiuj i generuj', nutyLib['generate_opis'])
+    print('\nSkopiuj i generuj', nutyLib['generate_opis'])
 
     return nutyLib
 
 
-seg_librosa()
-
-
-# slownik = seg_librosa()
-
-# okno3_wyniki(slownik)
-
-
-
+# seg_librosa()
