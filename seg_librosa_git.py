@@ -1,10 +1,6 @@
 import librosa.util
 import librosa, librosa.display
-<<<<<<< HEAD
 from functions_git import *
-=======
-from functions import *
->>>>>>> 0443fb2e334c19ed6344577ba20cea3dda24a7c0
 
 def seg_librosa():
 
@@ -105,13 +101,4 @@ def seg_librosa():
     return nutyLib
 
 
-<<<<<<< HEAD
 # seg_librosa()
-=======
-# seg_librosa()
-
-
-# slownik = seg_librosa()
-
-# okno3_wyniki(slownik)
->>>>>>> 0443fb2e334c19ed6344577ba20cea3dda24a7c0
